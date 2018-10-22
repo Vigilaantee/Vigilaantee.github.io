@@ -3,25 +3,79 @@
         <meta charset="utf-8">
         <title>Migos</title>
     </head>
-    <body>   
+    <style> 
+     article .line{
+    background-color:#15242a;
+    border-bottom-color:#204656;
+    margin:1.3em 0;
+    nav{
+    background:url(img/gradient_light.jpg) repeat-x 50% 50% #f8f8f8;
+    padding:0 5px;
+    position:absolute;f
+
+    -moz-box-shadow:0 1px 1px #333333;
+    -webkit-box-shadow:0 1px 1px #333333;
+    box-shadow:0 1px 1px #333333;
+}
+
+nav ul li{
+    display:inline;
+}
+
+nav ul li a,
+nav ul li a:visited{
+    color:#565656;
+    display:block;
+    float:left;
+    font-size:1.25em;
+    font-weight:bold;
+    margin:5px 2px;
+    padding:7px 10px 4px;
+    text-shadow:0 1px 1px white;
+    text-transform:uppercase;  
+    
+    article{
+    background-color:#213E4A;
+    margin:3em 0;
+    padding:20px;
+
+    text-shadow:0 2px 0 black;
+}
+
+figure{
+    border:3px solid #142830;
+    float:right;
+    height:300px;
+    margin-left:15px;
+    overflow:hidden;
+    width:500px;
+}
+    </style>
+        
+ <body>
+
+    <section id="page"> 
+
+    <header>
         <h1>Migos</h1>
+        
+        <nav class="clear">
+            <ul>
+                <li><a href="#article1">Home</a></li>
+                <li><a href="#article2">Music</a></li>
 
-        <div class="tab">
-         <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
-         <button class="tablinks" onclick="openCity(event, 'Music')">Music</button>
+            </ul>
+        </nav>
+    </header>
+          <div class="line"></div> 
+        <article id="article1">
+          <h2>About them</h2>
+        <div class="line"></div>
+         <figure>
+        <img src=""  />
+        </figure>
+         <p> </p>
         </div>
-
-        <div id="Home" class="tabcontent">
-         <h3>Home</h3>
-         <p>London is the capital city of England.</p>
-        </div>
-
-        <div id="Music" class="tabcontent">
-        <h3>Music</h3>
-        <p>Paris is the capital of France.</p> 
-        </div>
-
-        </div>
-    </body>
+        </article>
    
 </html>
