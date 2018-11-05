@@ -68,7 +68,6 @@ body {
 </table>
   </div>
 </div>
-<p id="demo"></p>	 
 <p>Select your favorite browser:</p>
 <form name = "survey">
   <input type="radio" name="album" onclick="myFunction(this.value)" value="Currency">Currency<br>
@@ -82,8 +81,8 @@ body {
 </form>
 
 <script>
-function myFunction(choich) {
-    document.getElementById("demo").innerHTML = choich;
+function myFunction(browser) {
+      document.getElementById("result").value = browser;
 }
 </script>
     
